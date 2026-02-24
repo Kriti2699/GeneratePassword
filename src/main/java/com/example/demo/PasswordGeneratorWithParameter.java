@@ -7,7 +7,6 @@ public class PasswordGeneratorWithParameter {
 	    private static final String lower=upper.toLowerCase();
 	    private static final String digit="0123456789";
 	    private static final String schar="!@#$%^&*()_+{}[]";
-	 //   private static final String All_Char=upper+lower+digit+schar;
 	    private static final SecureRandom random=new SecureRandom();
 
 	    public String generateRandomPassword(int length,boolean isUpper,boolean isLower,boolean isSpecial,boolean isDigit){
